@@ -1,0 +1,176 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "RPGHelper/1.0.0": {
+        "dependencies": {
+          "ModernWpfUI": "0.9.3",
+          "System.Drawing.Common": "5.0.1",
+          "WindowsInput": "6.2.1",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.12"
+        },
+        "runtime": {
+          "RPGHelper.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.12": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.10",
+            "fileVersion": "10.0.19041.12"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.33641"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      },
+      "ModernWpfUI/0.9.3": {
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/ModernWpf.Controls.dll": {
+            "assemblyVersion": "0.9.3.0",
+            "fileVersion": "0.9.3.0"
+          },
+          "lib/net5.0-windows10.0.18362.0/ModernWpf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "lib/net5.0-windows10.0.18362.0/cs/ModernWpf.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net5.0-windows10.0.18362.0/de/ModernWpf.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0-windows10.0.18362.0/es/ModernWpf.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0-windows10.0.18362.0/fa/ModernWpf.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/net5.0-windows10.0.18362.0/fr/ModernWpf.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0-windows10.0.18362.0/it/ModernWpf.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0-windows10.0.18362.0/ja/ModernWpf.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net5.0-windows10.0.18362.0/ko/ModernWpf.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net5.0-windows10.0.18362.0/pl/ModernWpf.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net5.0-windows10.0.18362.0/pt-BR/ModernWpf.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0-windows10.0.18362.0/ru/ModernWpf.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0-windows10.0.18362.0/tr/ModernWpf.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net5.0-windows10.0.18362.0/zh-Hans/ModernWpf.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net5.0-windows10.0.18362.0/zh-Hant/ModernWpf.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.1": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.321.7212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.321.7212"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.321.7212"
+          }
+        }
+      },
+      "WindowsInput/6.2.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/WindowsInput.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RPGHelper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.12": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "ModernWpfUI/0.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yoJPK1cPCkXy/+HyTGiccSu8baqx2BdSs0pmLFpHTh9uQ/zMH97lCOKbHtQrBJ7UJBcTjngRULuXADwevy+IIw==",
+      "path": "modernwpfui/0.9.3",
+      "hashPath": "modernwpfui.0.9.3.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3IN8zWk395Qu+7wnoTbebEjdP3izZBBKAahgWuC0jp9tCgTdUFN6KsrqQl0I3L+ptZD/LvwKjgFp1u+x3+p+DA==",
+      "path": "system.drawing.common/5.0.1",
+      "hashPath": "system.drawing.common.5.0.1.nupkg.sha512"
+    },
+    "WindowsInput/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tG42VJ07bCQTYm6remnShtCRNl5q1cJqpNvMwOXyf1ULqf3I/8TYYF0q7UhdHUd6acMctyuGuyXXs08ggY/2nQ==",
+      "path": "windowsinput/6.2.1",
+      "hashPath": "windowsinput.6.2.1.nupkg.sha512"
+    }
+  }
+}

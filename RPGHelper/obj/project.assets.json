@@ -1,0 +1,417 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows10.0.19041": {
+      "Microsoft.NETCore.Platforms/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "ModernWpfUI/0.9.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/ModernWpf.Controls.dll": {},
+          "lib/net5.0-windows10.0.18362.0/ModernWpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/ModernWpf.Controls.dll": {},
+          "lib/net5.0-windows10.0.18362.0/ModernWpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "resource": {
+          "lib/net5.0-windows10.0.18362.0/cs/ModernWpf.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net5.0-windows10.0.18362.0/de/ModernWpf.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0-windows10.0.18362.0/es/ModernWpf.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0-windows10.0.18362.0/fa/ModernWpf.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/net5.0-windows10.0.18362.0/fr/ModernWpf.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0-windows10.0.18362.0/it/ModernWpf.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0-windows10.0.18362.0/ja/ModernWpf.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net5.0-windows10.0.18362.0/ko/ModernWpf.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net5.0-windows10.0.18362.0/pl/ModernWpf.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net5.0-windows10.0.18362.0/pt-BR/ModernWpf.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0-windows10.0.18362.0/ru/ModernWpf.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0-windows10.0.18362.0/tr/ModernWpf.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net5.0-windows10.0.18362.0/zh-Hans/ModernWpf.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net5.0-windows10.0.18362.0/zh-Hant/ModernWpf.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "WindowsInput/6.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/WindowsInput.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/WindowsInput.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "contentFiles": {
+          "contentFiles/any/netcoreapp3.1/.nuget/mouse-keyboard-hook-logo.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "sha512": "Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net461/Microsoft.Win32.SystemEvents.xml",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ModernWpfUI/0.9.3": {
+      "sha512": "yoJPK1cPCkXy/+HyTGiccSu8baqx2BdSs0pmLFpHTh9uQ/zMH97lCOKbHtQrBJ7UJBcTjngRULuXADwevy+IIw==",
+      "type": "package",
+      "path": "modernwpfui/0.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ModernWpf.Controls.dll",
+        "lib/net45/ModernWpf.Controls.xml",
+        "lib/net45/ModernWpf.dll",
+        "lib/net45/ModernWpf.xml",
+        "lib/net45/cs/ModernWpf.resources.dll",
+        "lib/net45/de/ModernWpf.resources.dll",
+        "lib/net45/es/ModernWpf.resources.dll",
+        "lib/net45/fa/ModernWpf.resources.dll",
+        "lib/net45/fr/ModernWpf.resources.dll",
+        "lib/net45/it/ModernWpf.resources.dll",
+        "lib/net45/ja/ModernWpf.resources.dll",
+        "lib/net45/ko/ModernWpf.resources.dll",
+        "lib/net45/pl/ModernWpf.resources.dll",
+        "lib/net45/pt-BR/ModernWpf.resources.dll",
+        "lib/net45/ru/ModernWpf.resources.dll",
+        "lib/net45/tr/ModernWpf.resources.dll",
+        "lib/net45/zh-Hans/ModernWpf.resources.dll",
+        "lib/net45/zh-Hant/ModernWpf.resources.dll",
+        "lib/net462/ModernWpf.Controls.dll",
+        "lib/net462/ModernWpf.Controls.xml",
+        "lib/net462/ModernWpf.dll",
+        "lib/net462/ModernWpf.xml",
+        "lib/net462/cs/ModernWpf.resources.dll",
+        "lib/net462/de/ModernWpf.resources.dll",
+        "lib/net462/es/ModernWpf.resources.dll",
+        "lib/net462/fa/ModernWpf.resources.dll",
+        "lib/net462/fr/ModernWpf.resources.dll",
+        "lib/net462/it/ModernWpf.resources.dll",
+        "lib/net462/ja/ModernWpf.resources.dll",
+        "lib/net462/ko/ModernWpf.resources.dll",
+        "lib/net462/pl/ModernWpf.resources.dll",
+        "lib/net462/pt-BR/ModernWpf.resources.dll",
+        "lib/net462/ru/ModernWpf.resources.dll",
+        "lib/net462/tr/ModernWpf.resources.dll",
+        "lib/net462/zh-Hans/ModernWpf.resources.dll",
+        "lib/net462/zh-Hant/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/ModernWpf.Controls.dll",
+        "lib/net5.0-windows10.0.18362.0/ModernWpf.Controls.xml",
+        "lib/net5.0-windows10.0.18362.0/ModernWpf.dll",
+        "lib/net5.0-windows10.0.18362.0/ModernWpf.xml",
+        "lib/net5.0-windows10.0.18362.0/cs/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/de/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/es/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/fa/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/fr/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/it/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/ja/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/ko/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/pl/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/pt-BR/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/ref/ModernWpf.Controls.dll",
+        "lib/net5.0-windows10.0.18362.0/ru/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/tr/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/zh-Hans/ModernWpf.resources.dll",
+        "lib/net5.0-windows10.0.18362.0/zh-Hant/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/ModernWpf.Controls.dll",
+        "lib/netcoreapp3.0/ModernWpf.Controls.xml",
+        "lib/netcoreapp3.0/ModernWpf.dll",
+        "lib/netcoreapp3.0/ModernWpf.xml",
+        "lib/netcoreapp3.0/cs/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/de/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/es/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/fa/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/fr/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/it/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/ja/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/ko/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/pl/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/pt-BR/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/ru/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/tr/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/zh-Hans/ModernWpf.resources.dll",
+        "lib/netcoreapp3.0/zh-Hant/ModernWpf.resources.dll",
+        "modernwpfui.0.9.3.nupkg.sha512",
+        "modernwpfui.nuspec",
+        "readme.txt"
+      ]
+    },
+    "System.Drawing.Common/5.0.1": {
+      "sha512": "3IN8zWk395Qu+7wnoTbebEjdP3izZBBKAahgWuC0jp9tCgTdUFN6KsrqQl0I3L+ptZD/LvwKjgFp1u+x3+p+DA==",
+      "type": "package",
+      "path": "system.drawing.common/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.5.0.1.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "WindowsInput/6.2.1": {
+      "sha512": "tG42VJ07bCQTYm6remnShtCRNl5q1cJqpNvMwOXyf1ULqf3I/8TYYF0q7UhdHUd6acMctyuGuyXXs08ggY/2nQ==",
+      "type": "package",
+      "path": "windowsinput/6.2.1",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.txt",
+        "content/.nuget/mouse-keyboard-hook-logo.png",
+        "contentFiles/any/net461/.nuget/mouse-keyboard-hook-logo.png",
+        "contentFiles/any/netcoreapp3.1/.nuget/mouse-keyboard-hook-logo.png",
+        "lib/net461/WindowsInput.dll",
+        "lib/netcoreapp3.1/WindowsInput.dll",
+        "mouse-keyboard-hook-logo.png",
+        "windowsinput.6.2.1.nupkg.sha512",
+        "windowsinput.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows10.0.19041": [
+      "ModernWpfUI >= 0.9.3",
+      "System.Drawing.Common >= 5.0.1",
+      "WindowsInput >= 6.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\k1mlka\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\k1mlka\\source\\repos\\RPGHelper\\RPGHelper\\RPGHelper.csproj",
+      "projectName": "RPGHelper",
+      "projectPath": "C:\\Users\\k1mlka\\source\\repos\\RPGHelper\\RPGHelper\\RPGHelper.csproj",
+      "packagesPath": "C:\\Users\\k1mlka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\k1mlka\\source\\repos\\RPGHelper\\RPGHelper\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\k1mlka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows10.0.19041"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\k1mlka\\.nuget\\packages\\": {},
+        "C:\\Users\\k1mlka\\Downloads": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows10.0.19041": {
+          "targetAlias": "net5.0-windows10.0.19041.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows10.0.19041": {
+        "targetAlias": "net5.0-windows10.0.19041.0",
+        "dependencies": {
+          "ModernWpfUI": {
+            "target": "Package",
+            "version": "[0.9.3, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
+          "WindowsInput": {
+            "target": "Package",
+            "version": "[6.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.19041.12, 10.0.19041.12]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

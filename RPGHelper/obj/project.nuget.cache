@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wpE2kOCenO85T5xRWl9Dv73JtGJqO5FKbuIEO+cM96VnSQEitaDVpLZVLRu5Ft2TINvC6FGAEVO4jFkThbgHAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\k1mlka\\source\\repos\\RPGHelper\\RPGHelper\\RPGHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\k1mlka\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\k1mlka\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\k1mlka\\.nuget\\packages\\modernwpfui\\0.9.3\\modernwpfui.0.9.3.nupkg.sha512",
+    "C:\\Users\\k1mlka\\.nuget\\packages\\system.drawing.common\\5.0.1\\system.drawing.common.5.0.1.nupkg.sha512",
+    "C:\\Users\\k1mlka\\.nuget\\packages\\windowsinput\\6.2.1\\windowsinput.6.2.1.nupkg.sha512",
+    "C:\\Users\\k1mlka\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.12\\microsoft.windows.sdk.net.ref.10.0.19041.12.nupkg.sha512"
+  ],
+  "logs": []
+}
